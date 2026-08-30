@@ -301,13 +301,11 @@ export default function WalletModal({ isOpen, onClose, token: tokenProp = null }
                 {/* ⚠️ هشدار چشمک‌زن قرمز — دقیقاً زیر مبلغ واریزی */}
                 <div className="rounded-xl border border-red-500/50 bg-red-500/10 p-3 mb-4">
                   <p className="alert-blink text-center text-[13px] font-black text-red-500 leading-6">
-                    ⚠️ دقیقاً همین مبلغ را با اپ بانکی (بلوبانک، ویپاد و…) کارت‌به‌کارت به شماره کارت زیر واریز کنید
+                    ⚠️مبلغ دقیق را کپی و با اپ بانکی (بلوبانک،ویپاد و...) کارت به کارت و به شماره کارت زیر واریز کنید
                   </p>
-                   <p className="text-center text-xs text-red-300/90 mt-1.5 leading-5">
-                 بعد از واریز   سیس به سایت برگردید
-                  </p>
+                  
                   <p className="text-center text-xs text-red-300/90 mt-1.5 leading-5">
-                    در صورت واریز دقیق همین مبلغ، کیف پول شما به‌صورت خودکار و در کمتر از ۱ دقیقه شارژ می‌شود ✅
+                   درصورت واریز به سایت برگردید ، کیف پول شما به صورت خودکار شارژ می شود‌‌.✅
                   </p>
                 </div>
 
